@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Unidad3.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'examen/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
